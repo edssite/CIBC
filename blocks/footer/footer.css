@@ -1,12 +1,12 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: #383B3E;
+  color: #FFFFFF;
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 40px 30px 30px;
 }
 
 footer .footer p {
@@ -15,6 +15,99 @@ footer .footer p {
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 40px 200px 24px;
   }
+}
+
+.footer-sec1-p1-container {
+  display: flex;
+  border-bottom: 1px solid #BECEDB;
+  padding-bottom: 30px;
+  gap: 270px;
+}
+
+.footer-sec1-p1-container h2{
+  font-size: 20px;
+}
+.footer-sec1-p1-container img{
+  width: 25px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.footer-sec1-p1 > div:first-child > div{
+  display: flex;
+  padding-bottom: 8px;
+}
+.footer-sec1-p2 > div:first-child > div{
+  display: flex;
+  padding-bottom: 8px;
+}
+
+/* .footer-sec1-p2 .button-container a.button:any-link {
+  background-color: rgb(10, 126, 10);
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  padding-right: 140px;
+  padding-left: 140px;
+}
+.footer-sec1-p2 .button-container a.button:any-link:hover {
+  background-color: rgb(7, 102, 7);
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  padding-right: 140px;
+  padding-left: 140px;
+} */
+
+.footer-sec2{
+  display: flex;
+  gap: 150px;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #BECEDB;
+}
+
+.footer-sec3{
+  display: flex;
+  padding-top: 20px;
+  gap: 105px;
+  font-size: 14px;
+  line-height: 2.5;
+  border-bottom: 1px solid #BECEDB;
+  padding-bottom: 20px;
+}
+.footer-sec3 h3{
+  font-size: 16px;
+}
+
+.footer-sec4-p1-container{
+  display: flex;
+  font-size: 14px;
+  gap: 80px;
+  padding-top: 15px;
+}
+.footer-sec4-p1 > div:first-child img{
+  width: 30px;
+  height: auto;
+}
+.footer-sec4-p1 > div:first-child{
+  padding-bottom: 30px;
+}
+.footer-sec4-p1 > div:last-child img{
+  width: 100px;
+  height: auto;
+}
+
+.footer-sec4-p2{
+  display: flex;
+  gap: 50px;
+}
+.footer-sec4-p2 > div:last-child img{
+  width: 30px;
+  height: auto;
 }
