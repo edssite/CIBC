@@ -1,0 +1,26 @@
+.saving-sec6{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(134,136,138);
+}
+
+.saving-sec6 img{
+    margin-bottom: -10px;
+    width: 1800px;
+    height: auto;
+}
+.saving-sec6 > div:last-child{
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.saving-sec6 > div:last-child > div:first-child{
+   font-size: 26px;
+}
+.saving-sec6 > div:last-child > div:last-child{
+    font-size: 16px;
+    margin-left: -10px;
+    margin-right: -10px;
+ }
