@@ -1,0 +1,91 @@
+.chequing-sec4-p1-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    background-image: url(https://www.cibc.com/content/dam/global-assets/background-pattern/light-grey-tiled.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg)
+}
+.chequing-sec4-p1-container > div:nth-child(1){
+    flex: 1;
+}
+.chequing-sec4-p1-container > div:nth-child(3){
+    flex: none;
+    width: 100%;
+}
+
+.chequing-sec4-p1, .chequing-sec4-p2, .chequing-sec4-p3{
+    border: 1px solid rgb(134,136,138);
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FFFFFF;
+}
+.chequing-sec4-p1 img, .chequing-sec4-p2 img, .chequing-sec4-p3 img{
+    width: 35px;
+    height: auto;
+}
+
+.chequing-sec4-p1 > div:nth-child(6), .chequing-sec4-p2 > div:nth-child(6){
+    text-align: left;
+}
+
+.chequing-sec4-p1{
+    margin-left: 145px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 450px;
+    height: 1000px;
+}
+.chequing-sec4-p2{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 450px;
+    height: 1000px;
+    margin-right: 130px;
+}
+
+.chequing-sec4-p1 > div:nth-child(2), .chequing-sec4-p2 > div:nth-child(2), .chequing-sec4-p3 > div:nth-child(2){
+    color: rgb(134, 136, 138);
+    font-size: 16px;
+}
+.chequing-sec4-p1 > div:nth-child(3), .chequing-sec4-p2 > div:nth-child(3), .chequing-sec4-p3 > div:nth-child(3){
+    font-size: 34.08px;
+}
+.chequing-sec4-p1 > div:nth-child(3), .chequing-sec4-p2 > div:nth-child(3){
+    padding-top: 20px;
+}
+.chequing-sec4-p1 > div:nth-child(3) > div:last-child, .chequing-sec4-p2 > div:nth-child(3) > div:last-child{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.chequing-sec4-p1 > div:nth-child(4) > div:last-child, .chequing-sec4-p2 > div:nth-child(4) > div:last-child{
+    font-size: 20px;
+    border-bottom: 1px solid rgb(134,136,138);
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-bottom: 20px;
+}
+.chequing-sec4-p1 > div:nth-child(5) > div:first-child, .chequing-sec4-p2 > div:nth-child(5) > div:first-child{
+    font-weight: bold;
+    padding-top: 40px;
+}
+.chequing-sec4-p1 > div:nth-child(5) > div:last-child, .chequing-sec4-p2 > div:nth-child(5) > div:last-child{
+    font-size: 26px;
+}
+.chequing-sec4-p1 > div:nth-child(6), .chequing-sec4-p2 > div:nth-child(6){
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.chequing-sec4-p1 > div:nth-child(6) img, .chequing-sec4-p2 > div:nth-child(6) img{
+    width: 15px;
+    height: auto;
+}
+.chequing-sec4-p1 > div:last-child, .chequing-sec4-p2 > div:last-child, .chequing-sec4-p3 > div:last-child{
+    padding-bottom: 70px;
+}
+
+.chequing-sec4-p3{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-right: 15px;
+}

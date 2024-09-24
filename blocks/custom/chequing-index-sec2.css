@@ -1,0 +1,35 @@
+.chequing-sec2-p1-wrapper{
+    text-align: center;
+}
+.chequing-sec2-p1{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.chequing-sec2-p1 > div:first-child{
+    font-size: 16px;
+}
+.chequing-sec2-p1 > div:nth-child(2) p{
+    font-size: 36px;
+    margin-top: 10px !important;
+}
+.chequing-sec2-p1 > div:last-child{
+    font-size: 20px;
+}
+
+.chequing-sec2-p2 {
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.chequing-sec2-p2 > div:first-child > div:first-child p{
+    font-size: 26px;
+}
+.chequing-sec2-p2 > div:last-child > div:first-child p{
+    font-size: 26px;
+}
+.chequing-sec2-p2 p{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}

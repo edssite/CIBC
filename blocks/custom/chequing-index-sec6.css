@@ -1,0 +1,65 @@
+.chequing-sec6-p1-container{
+    padding-top: 50px;
+}
+
+.chequing-sec6-p1{
+    display: flex;
+    background-image: url(https://www.cibc.com/content/dam/cibc-public-assets/special-offers/disney/images/disney-plus-gradient-background-desktop.jpg/_jcr_content/renditions/cq5dam.web.2000.2000.jpeg);
+    ;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.chequing-sec6-p1{
+    color: #FFFFFF;
+}
+
+.chequing-sec6-p1 img{
+    width: 700px;
+    height: auto;
+}
+
+.chequing-sec6-p1 > div:last-child{
+    padding-left: 20px;
+}
+.chequing-sec6-p1 > div:last-child > div:first-child{
+    font-size: 26px;
+    padding-top: 25px;
+}
+.chequing-sec6-p1 > div:last-child > div:last-child{
+    font-size: 14px;
+    margin-right: 120px;
+}
+.chequing-sec6-p1 > div:last-child > div:last-child > p:last-child{
+    padding-top: 20px;    
+}
+
+.chequing-sec6-p2{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(134,136,138);
+}
+
+.chequing-sec6-p2 img{
+    margin-bottom: -10px;
+    width: 1500px;
+    height: auto;
+}
+.chequing-sec6-p2 > div:last-child{
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.chequing-sec6-p2 > div:last-child > div:first-child{
+   font-size: 26px;
+}
+.chequing-sec6-p2 > div:last-child > div:last-child{
+    font-size: 16px;
+    margin-left: -10px;
+    margin-right: -10px;
+ }

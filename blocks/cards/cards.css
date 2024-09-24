@@ -5,23 +5,59 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
   grid-gap: 24px;
+  text-align: left;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
   background-color: var(--background-color);
+}
+
+.cards{
+  border: 1px solid rgb(134,136,138);
+  max-width: 700px;
+  margin-right: 160px;
+  padding-left: 50px;
+  padding-top: 50px !important;
+  padding-bottom: 105px;
+  padding-right: 50px;
 }
 
 .cards .cards-card-body {
   margin: 16px;
 }
 
+.cards p {
+  color: gray;
+}
+
+.cards h3 {
+  font-size: 18px;
+}
+
+.cards p {
+  font-size: 15px;
+}
+
 .cards .cards-card-image {
   line-height: 0;
 }
 
-.cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.cards-wrapper {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;    /* Centers items vertically */
+  text-align: center;     /* Centers text inside the items if needed */
+  height: 100%;           /* Ensure the container has a height if needed */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 0px !important;
+}
+
+.cards {
+  padding-top: 25px;
+}
+
+.cards > ul:first-child img{
+  width: 80px;
+  height: auto;
 }

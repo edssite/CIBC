@@ -1,0 +1,32 @@
+.chequing-sec7-container{
+    background-image: url(https://www.cibc.com/content/dam/cibc-public-assets/personal-banking/bank-accounts/images/branch-home-illustration-banner.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    padding-top: 70px;
+
+}
+
+.chequing-sec7{
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 50px;
+}
+.chequing-sec7 p{
+    margin-top: -300px;
+    font-size: 34px;
+}
+
+.chequing-sec7-p2{
+    border: 1px solid rgb(134,136,138);
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.chequing-sec7-p2 > div:first-child{
+    font-size: 26px;
+}
