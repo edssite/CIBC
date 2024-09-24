@@ -1,0 +1,13 @@
+.saving-sec8{
+    border: 1px solid rgb(134,136,138);
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -305px;
+}
+.saving-sec8 > div:first-child{
+    font-size: 26px;
+}
